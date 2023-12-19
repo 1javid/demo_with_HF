@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
 
 st.title('Question Answering')
 st.write('Enter a question and a context.')
