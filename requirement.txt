@@ -1,3 +1,4 @@
 pandas
 streamlit
-transformers=4.1.2
+transformers
+torch
